@@ -39,9 +39,10 @@
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
+
 }
 .text-box h1{
-  font-size: 80px;
+  font-size: 73px;
 
 }
 .text-box p{
@@ -49,6 +50,20 @@
   font-size: 14px;
 }
 .profile{
-  
-
+text-align: center;
+}
+.profile h2{
+  font-size: 40px;
+}
+.tools{
+text-align: center;
+}
+.tools h2{
+  font-size: 40px;
+}
+.it{
+text-align: center;
+}
+.it h2{
+  font-size: 40px;
 }
