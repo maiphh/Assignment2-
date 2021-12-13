@@ -6,6 +6,7 @@
 body{
   background-color: #131313;
 }
+
 .menu{
   flex:1;
   text-align: right;
@@ -136,6 +137,77 @@ text-align: center;
 color: #FFFFFF;
 }
 .it h2{
+  font-size: 40px;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.techno{
+text-align: center;
+color: #FFFFFF;
+}
+.techno h2{
+  font-size: 4rem;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.techno h3 {
+  font-size: 40px;
+  margin-top: 10px;
+  background-color: #ff8177;
+  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.techno p{
+  margin: auto;
+  width: 50%;
+  text-align:justify;
+}
+.techno li{
+  text-align:left;
+  position: relative;left: 300px;
+
+  margin-left: auto;
+
+}
+
+
+
+
+.ideas{
+text-align: center;
+color: #FFFFFF;
+}
+.ideas h2{
+  font-size: 40px;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.fb{
+text-align: center;
+color: #FFFFFF;
+}
+.fb h2{
   font-size: 40px;
   background-color: #ff8177;
   background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
