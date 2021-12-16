@@ -10,6 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:ital,wght@0,200;0,400;0,600;0,900;1,900&display=swap" rel="stylesheet">
   </head>
 <body>
+<header>
+
 
       <div class="menu">
       <ul>
@@ -22,6 +24,14 @@
 
       </ul>
       </div>
+    </header>
+    <script type="text/javascript">
+    window.addEventListener("scroll",function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+
+    </script>
 
 
     <div class="text-box">
