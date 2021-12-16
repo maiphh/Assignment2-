@@ -17,28 +17,10 @@ header {
 	text-align: center;
 	background: #000;
 	z-index: 9999;
-	transition: all 300ms ease-in-out;
+
 }
 
-.scroll-down {
-	header {
-		transform: translate3d(0, -100%, 0);
-	}
-}
 
-.scroll-up {
-	header {
-		filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
-	}
-}
-
-.menu-is-open {
-	overflow: hidden;
-
-	header {
-		filter: none;
-	}
-}
 
 .menu{
   flex:1;
@@ -398,6 +380,24 @@ color: #FFFFFF;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+.ideas h3{
+  font-size: 40px;
+margin-top: 10px;
+background-color: #ff8177;
+background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+background-size: 100%;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+
+}
+.ideas p{
+  margin: auto;
+  width: 50%;
+  text-align:justify;
+
 }
 
 .fb{
